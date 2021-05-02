@@ -62,6 +62,12 @@ function init() {
 
 init();
 
+function offlineHandler() {
+    console.log("bybyby");
+}
+
+window.addEventListener("offline", offlineHandler);
+
 
 
 
