@@ -65,8 +65,14 @@ init();
 function offlineHandler() {
     console.log("bybyby");
 }
+function onlineHandler() {
+    console.log("hihihi");
+}
+
 
 window.addEventListener("offline", offlineHandler);
+window.addEventListener("online", onlineHandler);
+
 
 
 
