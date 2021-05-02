@@ -2,6 +2,9 @@ body {
     background-color: #233434;
 }
 h1 {
-    
-    
+    color:rgb(118, 218, 25); 
+}
+
+.clicked {
+    color:#8e44ad;
 }
